@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:StackStorm TSC Meetings
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200407T093000
+DTEND;TZID=America/Los_Angeles:20200407T103000
+RRULE:FREQ=MONTHLY;BYDAY=1TU
+DTSTAMP:20200826T143010Z
+UID:2f4s2ik23m09tnlb7p9as01lt8@google.com
+CREATED:20200826T142640Z
+DESCRIPTION:<p><span></span></p><br>StackStorm Technical Steering Committee
+  periodic Meeting.<br><br>Every first Tuesday of the month get together and
+  discuss plans\, commitments and priorities to help StackStorm as a project
+  evolve and succeed.<br><br><p>Time zone distribution for the ST2 TSC membe
+ rs: <a href="https://www.worldtimebuddy.com/?qm=1&lid=5368361\,4140963\,12\
+ ,2267057&h=5368361&date=2020-3-3&sln=9.5-10.5" target="_blank">https://www.
+ worldtimebuddy.com/?qm=1&amp\;lid=5368361\,4140963\,12\,2267057&amp\;h=5368
+ 361&amp\;date=2020-3-3&amp\;sln=9.5-10.5</a><br></p><p></p>
+LAST-MODIFIED:20200826T142640Z
+LOCATION:https://us04web.zoom.us/j/966394889
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:StackStorm TSC Meeting (monthly)
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
